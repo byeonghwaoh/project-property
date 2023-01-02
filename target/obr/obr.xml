@@ -1,0 +1,39 @@
+<repository lastmodified='20230102022701.476'>
+  <resource id='bh.plex.ppmgmt/1.0.6' symbolicname='bh.plex.ppmgmt' presentationname='ppmgmt' uri='ppmgmt-1.0.6.jar' version='1.0.6'>
+    <description>This is the bh.plex:ppmgmt plugin for Atlassian JIRA.</description>
+    <size>228087</size>
+    <documentation>http://www.example.com/</documentation>
+    <capability name='bundle'>
+      <p n='symbolicname' v='bh.plex.ppmgmt'/>
+      <p n='presentationname' v='ppmgmt'/>
+      <p n='version' t='version' v='1.0.6'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='bh.plex.api'/>
+      <p n='version' t='version' v='1.0.6'/>
+    </capability>
+    <require name='package' filter='(&amp;(package=bh.plex.api))' extend='false' multiple='false' optional='false'>Import package bh.plex.api</require>
+    <require name='package' filter='(&amp;(package=com.atlassian.activeobjects.external))' extend='false' multiple='false' optional='false'>Import package com.atlassian.activeobjects.external</require>
+    <require name='package' filter='(&amp;(package=com.atlassian.crowd.embedded.api))' extend='false' multiple='false' optional='false'>Import package com.atlassian.crowd.embedded.api</require>
+    <require name='package' filter='(&amp;(package=com.atlassian.jira.component))' extend='false' multiple='false' optional='false'>Import package com.atlassian.jira.component</require>
+    <require name='package' filter='(&amp;(package=com.atlassian.jira.plugin.projectpanel))' extend='false' multiple='false' optional='false'>Import package com.atlassian.jira.plugin.projectpanel</require>
+    <require name='package' filter='(&amp;(package=com.atlassian.jira.plugin.projectpanel.impl))' extend='false' multiple='false' optional='false'>Import package com.atlassian.jira.plugin.projectpanel.impl</require>
+    <require name='package' filter='(&amp;(package=com.atlassian.jira.project))' extend='false' multiple='false' optional='false'>Import package com.atlassian.jira.project</require>
+    <require name='package' filter='(&amp;(package=com.atlassian.jira.project.browse))' extend='false' multiple='false' optional='false'>Import package com.atlassian.jira.project.browse</require>
+    <require name='package' filter='(&amp;(package=com.atlassian.jira.security.groups))' extend='false' multiple='false' optional='false'>Import package com.atlassian.jira.security.groups</require>
+    <require name='package' filter='(&amp;(package=com.atlassian.jira.user))' extend='false' multiple='false' optional='false'>Import package com.atlassian.jira.user</require>
+    <require name='package' filter='(&amp;(package=com.atlassian.plugin.spring.scanner.annotation.export))' extend='false' multiple='false' optional='false'>Import package com.atlassian.plugin.spring.scanner.annotation.export</require>
+    <require name='package' filter='(&amp;(package=com.atlassian.plugin.spring.scanner.annotation.imports))' extend='false' multiple='false' optional='false'>Import package com.atlassian.plugin.spring.scanner.annotation.imports</require>
+    <require name='package' filter='(&amp;(package=com.atlassian.plugins.rest.common.security))' extend='false' multiple='false' optional='false'>Import package com.atlassian.plugins.rest.common.security</require>
+    <require name='package' filter='(&amp;(package=com.atlassian.sal.api))' extend='false' multiple='false' optional='false'>Import package com.atlassian.sal.api</require>
+    <require name='package' filter='(&amp;(package=com.atlassian.sal.api.transaction))' extend='false' multiple='false' optional='false'>Import package com.atlassian.sal.api.transaction</require>
+    <require name='package' filter='(&amp;(package=com.atlassian.webresource.api.assembler))' extend='false' multiple='false' optional='false'>Import package com.atlassian.webresource.api.assembler</require>
+    <require name='package' filter='(&amp;(package=javax.inject))' extend='false' multiple='false' optional='false'>Import package javax.inject</require>
+    <require name='package' filter='(&amp;(package=javax.ws.rs))' extend='false' multiple='false' optional='false'>Import package javax.ws.rs</require>
+    <require name='package' filter='(&amp;(package=javax.ws.rs.core))' extend='false' multiple='false' optional='false'>Import package javax.ws.rs.core</require>
+    <require name='package' filter='(&amp;(package=javax.xml.bind.annotation))' extend='false' multiple='false' optional='false'>Import package javax.xml.bind.annotation</require>
+    <require name='package' filter='(&amp;(package=net.java.ao))' extend='false' multiple='false' optional='false'>Import package net.java.ao</require>
+    <require name='package' filter='(&amp;(package=org.slf4j))' extend='false' multiple='false' optional='false'>Import package org.slf4j</require>
+  </resource>
+</repository>

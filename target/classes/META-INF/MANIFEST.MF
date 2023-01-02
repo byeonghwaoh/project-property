@@ -1,0 +1,28 @@
+Manifest-Version: 1.0
+Atlassian-Build-Date: 2023-01-02T14:27:00+0900
+Atlassian-Plugin-Key: bh.plex.ppmgmt
+Bnd-LastModified: 1672637221054
+Build-Jdk: 11.0.17
+Built-By: benja
+Bundle-Description: This is the bh.plex:ppmgmt plugin for Atlassian JIRA
+ .
+Bundle-DocURL: http://www.example.com/
+Bundle-ManifestVersion: 2
+Bundle-Name: ppmgmt
+Bundle-SymbolicName: bh.plex.ppmgmt
+Bundle-Vendor: Example Company
+Bundle-Version: 1.0.6
+Created-By: Apache Maven Bundle Plugin
+Export-Package: bh.plex.api;version="1.0.6"
+Import-Package: bh.plex.api,com.atlassian.activeobjects.external,com.atl
+ assian.crowd.embedded.api,com.atlassian.jira.component,com.atlassian.ji
+ ra.plugin.projectpanel,com.atlassian.jira.plugin.projectpanel.impl,com.
+ atlassian.jira.project,com.atlassian.jira.project.browse,com.atlassian.
+ jira.security.groups,com.atlassian.jira.user,com.atlassian.plugin.sprin
+ g.scanner.annotation.export,com.atlassian.plugin.spring.scanner.annotat
+ ion.imports,com.atlassian.plugins.rest.common.security,com.atlassian.sa
+ l.api,com.atlassian.sal.api.transaction,com.atlassian.webresource.api.a
+ ssembler,javax.inject,javax.ws.rs,javax.ws.rs.core,javax.xml.bind.annot
+ ation,net.java.ao,org.slf4j
+Spring-Context: *
+Tool: Bnd-3.5.0.201709291849

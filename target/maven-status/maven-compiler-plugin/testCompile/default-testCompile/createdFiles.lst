@@ -1,0 +1,5 @@
+it\bh\plex\MyComponentWiredTest.class
+it\bh\plex\rest\PPMgmtRestFuncTest.class
+ut\bh\plex\tab\PPMgmtTabPanelTest.class
+ut\bh\plex\MyComponentUnitTest.class
+ut\bh\plex\rest\PPMgmtRestTest.class

@@ -1,0 +1,18 @@
+<html>
+<head>
+
+</head>
+<body
+    <br/>
+
+    <div>
+        <aui-badge>$userName</aui-badge> - <aui-badge>$projectId</aui-badge>
+    </div>
+
+    <br/>
+    <br/>
+    <input type="hidden" id="projectId" value="$projectId">
+
+    <table id="project-property-table"></table>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<atlassian-plugin key="${atlassian.plugin.key}" name="${project.name}" plugins-version="2"> 
+  <plugin-info> 
+    <description>${project.description}</description>  
+    <version>${project.version}</version>  
+    <vendor name="${project.organization.name}" url="${project.organization.url}"/>  
+    <param name="plugin-icon">images/pluginIcon.png</param>  
+    <param name="plugin-logo">images/pluginLogo.png</param> 
+  </plugin-info>  
+  <!-- add our i18n resource -->  
+  <resource type="i18n" name="i18n" location="ppmgmt"/>  
+  <!-- add our web resources -->  
+  <web-resource key="ppmgmt-resources" name="ppmgmt Web Resources"> 
+    <dependency>com.atlassian.auiplugin:ajs</dependency>
+    <dependency>com.atlassian.auiplugin:aui-restfultable</dependency>
+    <resource type="download" name="ppmgmt.css" location="/css/ppmgmt.css"/>  
+    <resource type="download" name="ppmgmt.js" location="/js/ppmgmt.js"/>  
+    <resource type="download" name="images/" location="/images"/>  
+    <context>ppmgmt</context> 
+  </web-resource>  
+  <project-tabpanel key="pp-mgmt-tab-panel" name="PP Mgmt Tab Panel" i18n-name-key="pp-mgmt-tab-panel.name" class="bh.plex.tab.PPMgmtTabPanel"> 
+    <description key="pp-mgmt-tab-panel.description">The PP Mgmt Tab Panel Plugin</description>  
+    <label key="pp-mgmt-tab-panel.label"/>  
+    <order>10</order>  
+    <resource type="velocity" name="view" location="templates/tabpanels/pp-mgmt-tab-panel.vm"/> 
+  </project-tabpanel>  
+  <ao key="ao-module"> 
+    <description>The module configuring the Active Objects service used by this plugin</description>  
+    <entity>bh.plex.ao.Property</entity> 
+  </ao>  
+  <rest name="PP Mgmt Rest" i18n-name-key="pp-mgmt-rest.name" key="pp-mgmt-rest" path="/ppmgmt" version="1.0"> 
+    <description key="pp-mgmt-rest.description">The PP Mgmt Rest Plugin</description> 
+  </rest>
+</atlassian-plugin>
